@@ -9,52 +9,33 @@
 
   <channel>
     <title>
-      <![CDATA[  Franklin Template  ]]>
+      <![CDATA[  Julia Climate  ]]>
     </title>
-    <link> https://tlienart.github.io/FranklinTemplates.jl/ </link>
+    <link> https://juliaclimate.org </link>
     <description>
-      <![CDATA[  Example website using Franklin  ]]>
+      <![CDATA[  Climate Science tools and data developed in Julia.  ]]>
     </description>
     <atom:link
-      href="https://tlienart.github.io/FranklinTemplates.jl/feed.xml"
+      href="https://juliaclimate.org/feed.xml"
       rel="self"
       type="application/rss+xml" />
 
 
 <item>
   <title>
-    <![CDATA[  More goodies  ]]>
+    <![CDATA[  Julia Climate Tutorials  ]]>
   </title>
-  <link> https://tlienart.github.io/FranklinTemplates.jl/github/index.html </link>
-  <guid> https://tlienart.github.io/FranklinTemplates.jl/github/index.html </guid>
+  <link> https://juliaclimate.org/tutorials/index.html </link>
+  <guid> https://juliaclimate.org/tutorials/index.html </guid>
   <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg" alt="" />  ]]>
+    <![CDATA[  Check out some of the most compelling Julia Climate examples we have&#33;  ]]>
   </description>  
     
-  <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>  
+  <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
-    <atom:name>Septimia Zenobia</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  Code blocks  ]]>
-  </title>
-  <link> https://tlienart.github.io/FranklinTemplates.jl/tutorials/index.html </link>
-  <guid> https://tlienart.github.io/FranklinTemplates.jl/tutorials/index.html </guid>
-  <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
-  </description>  
-    
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Septimia Zenobia</atom:name>
+    <atom:name>Julia Climate Contributors</atom:name>
   </atom:author>
         
 </item>
