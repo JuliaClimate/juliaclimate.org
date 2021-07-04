@@ -1,0 +1,99 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Julia Climate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script>
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="/css/minimal-mistakes.css">
+    <!--[if IE ]>
+      <style>
+        /* old IE unsupported flexbox fixes */
+        .greedy-nav .site-title {
+          padding-right: 4em;
+        }
+        .greedy-nav button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 100%;
+        }
+      </style>
+    <![endif]-->
+    <!-- start custom head snippets -->
+    <!-- insert favicons. use https://realfavicongenerator.net/ -->
+    <!-- end custom head snippets -->
+  </head>
+<body class="layout--splash">
+{{ insert masthead.html }}
+
+<div class="initial-content">
+  <div class="page__hero--overlay"
+    style="background-color: #5e616c; background-image: url('/assets/minimal-mistakes/nature2.png');">
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">Julia Climate</h1>
+      <p class="page__lead">Climate Science tools and data <br> developed in Julia.</p>
+    </div>
+  </div>
+
+  <div id="main" role="main">
+    <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+      <meta itemprop="description" content="Climate Science tools and data developed in Julia.">
+      <section class="page__content" itemprop="text">
+        <div class="feature__wrapper">
+          <div class="feature__item">
+            <div class="archive__item">
+              <div class="archive__item-teaser">
+                <img src="/assets/minimal-mistakes/ClimateTools.png" alt="customizable" />
+              </div>
+              <div class="archive__item-body">
+                <h2 class="archive__item-title">ClimateTools.jl</h2>
+                <div class="archive__item-excerpt">
+                  <p>ClimateTools.jl is a collection of commonly-used tools in Climate science.</p>
+                </div>
+                <p><a href="https://juliaclimate.github.io/ClimateTools.jl/stable/" class="btn btn--primary">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="feature__item">
+            <div class="archive__item">
+              <div class="archive__item-teaser">
+                <img src="/assets/minimal-mistakes/MeshArrays.png" alt="fully responsive" />
+              </div>
+              <div class="archive__item-body">
+                <h2 class="archive__item-title">MeshArrays.jl</h2>
+                <div class="archive__item-excerpt">
+                  <p>MeshArrays.jl defines the "MeshArray" data structure (or type) that can contain, and distribute, collections of inter-connected arrays as generally done in climate models.</p>
+                </div>
+                <p><a href="https://juliaclimate.github.io/MeshArrays.jl/stable/" class="btn btn--primary">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="feature__item">
+            <div class="archive__item">
+              <div class="archive__item-teaser">
+                <img src="/assets/minimal-mistakes/RandomFlow.gif" alt="100% free" />
+              </div>
+              <div class="archive__item-body">
+                <h2 class="archive__item-title">IndividualDisplacements.jl</h2>
+                <div class="archive__item-excerpt">
+                  <p>IndividualDisplacements.jl computes point displacements over a gridded domain. It is geared towards the analysis of Climate, Ocean, etc models (Arakawa C-grids are natively supported) and the simulation of material transports within the Earth System (e.g. plastics or planktons in the Ocean; dusts or chemicals in the Atmosphere).</p>
+                </div>
+                <p><a href="https://juliaclimate.github.io/IndividualDisplacements.jl/dev/" class="btn btn--primary">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    {{ insert foot.html }}
