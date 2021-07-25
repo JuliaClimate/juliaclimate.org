@@ -11,5 +11,5 @@ rss = "Check out some of the most compelling Julia Climate examples we have!"
 Check out this tutorial which was part of JuliaCon 2021:
 
 ~~~
-<iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/UCIRrXz2ZS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="400" height="400" src="https://www.youtube-nocookie.com/embed/UCIRrXz2ZS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
